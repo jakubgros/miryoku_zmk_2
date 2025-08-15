@@ -12,7 +12,7 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
-      custom_config: '["#define U_TAPPING_TERM 100\n#define MIRYOKU_KLUDGE_MOUSEKEYSPR\n#define ZMK_MOUSE_DEFAULT_MOVE_VAL 4000\n#define U_MOUSE_MOVE_EXPONENT 1\n#define U_MOUSE_MOVE_TIME 1000\n#define U_MOUSE_MOVE_DELAY 0\n#define ZMK_MOUSE_DEFAULT_SCRL_VAL 30"]'
+      custom_config: '["#define U_TAPPING_TERM 100\n#define MIRYOKU_KLUDGE_MOUSEKEYSPR\n#define ZMK_POINTING_DEFAULT_MOVE_VAL 4000\n#define U_MOUSE_MOVE_EXPONENT 1\n#define U_MOUSE_MOVE_TIME 1000\n#define U_MOUSE_MOVE_DELAY 0\n#define ZMK_POINTING_DEFAULT_SCRL_VAL 30"]'
       alphas: '["QWERTY"]'
       extra: '["colemak"]'
       nav: '["invertedT"]'
