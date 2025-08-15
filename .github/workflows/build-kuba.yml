@@ -15,7 +15,7 @@ jobs:
       custom_config: '["#define U_TAPPING_TERM 100\n#define MIRYOKU_KLUDGE_MOUSEKEYSPR\n#define ZMK_POINTING_DEFAULT_MOVE_VAL 8000\n#define U_MOUSE_MOVE_EXPONENT 1\n#define U_MOUSE_MOVE_TIME 1000\n#define U_MOUSE_MOVE_DELAY 0\n#define ZMK_POINTING_DEFAULT_SCRL_VAL 30"]'
       alphas: '["qwerty"]'
       extra: '["colemak"]'
-      tap: '["colemak"]'
+      tap: '["qwerty"]'
       nav: '["invertedT"]'
       clipboard: '["default"]'
       layers: '["flip"]'
